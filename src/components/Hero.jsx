@@ -5,17 +5,17 @@ import { ArrowRight, CheckCircle2, ShieldCheck, Sparkles, Flame, Award, Wrench }
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-red-50 via-white to-red-50/50 pt-10 pb-16 lg:pt-16 lg:pb-24 border-b border-borderColor">
-      
+
       {/* Decorative Glow Elements */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-red-200/50 rounded-full filter blur-3xl opacity-50 pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-red-100/60 rounded-full filter blur-3xl opacity-60 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-           
+
           {/* Left Hero Column */}
           <div className="lg:col-span-7 flex flex-col items-start ">
-            
+
             {/* Store Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 border border-red-200 shadow-xs mb-6 text-xs font-bold text-red-600">
               <Flame className="w-4 h-4 fill-red-600 text-red-600" />
@@ -73,15 +73,15 @@ const Hero = () => {
           {/* Right Hero Column - Large Image Card */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
-                  
+
               {/* Hero Image Card */}
-              <div className="relative bg-white w-96 rounded-3xl p-4 shadow-2xl border border-red-100">
+              <div className="relative bg-white w-80 rounded-3xl p-1 shadow-2xl border border-red-100">
                 <img
                   src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000&auto=format&fit=crop"
                   alt="Nishad Computers Featured Laptop"
                   className="w-full h-96 object-contain rounded-2xl transition-transform duration-500 hover:scale-[1.02]"
                 />
-                 
+
                 {/* Floating Highlight Card */}
                 <div className="absolute -bottom-5 -left-5 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-red-100 flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-red-600 flex items-center justify-center text-white font-bold text-sm shadow-md shadow-red-600/30">

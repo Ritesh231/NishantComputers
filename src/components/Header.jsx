@@ -120,7 +120,7 @@ const Header = () => {
           {/* Header Action Icons */}
           <div className="flex items-center gap-3 sm:gap-4 shrink-0">
             {/* Wishlist Icon */}
-            <Link
+            {/* <Link
               to="/wishlist"
               className="relative p-2.5 rounded-full hover:bg-slate-100 text-textMain transition-colors"
               title="Wishlist"
@@ -131,7 +131,7 @@ const Header = () => {
                   {wishlistItems.length}
                 </span>
               )}
-            </Link>
+            </Link> */}
 
             {/* Cart Icon */}
             <button
