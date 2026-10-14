@@ -52,7 +52,7 @@ const CartDrawer = () => {
                     setIsCartOpen(false);
                     navigate('/laptops');
                   }}
-                  className="bg-cyanPrimary text-white text-sm font-semibold px-6 py-2.5 rounded-xl hover:bg-cyan-600 transition-colors shadow-md"
+                  className="bg-cyanPrimary text-white text-sm font-semibold px-6 py-2.5 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
                 >
                   Explore Laptops
                 </button>
@@ -124,7 +124,7 @@ const CartDrawer = () => {
                     setIsCartOpen(false);
                     navigate('/checkout');
                   }}
-                  className="w-full bg-cyanPrimary hover:bg-cyan-600 text-white font-semibold py-3 rounded-xl text-xs transition-colors flex items-center justify-center gap-2 shadow-md"
+                  className="w-full bg-cyanPrimary hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-xs transition-colors flex items-center justify-center gap-2 shadow-md"
                 >
                   Checkout
                   <ArrowRight className="w-4 h-4" />

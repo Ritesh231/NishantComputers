@@ -5,7 +5,7 @@ import { Gamepad2, Briefcase, GraduationCap, Palette, Zap, ArrowUpRight } from '
 
 const CategoryCard = () => {
   const getCategoryIcon = (iconName) => {
-    const iconClass = "w-6 h-6 text-red-600 group-hover:text-white transition-colors duration-300";
+    const iconClass = "w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300";
     switch (iconName) {
       case 'Gamepad2': return <Gamepad2 className={iconClass} />;
       case 'Briefcase': return <Briefcase className={iconClass} />;
@@ -41,7 +41,7 @@ const CategoryCard = () => {
             >
               <div className="p-5">
                 <div className="flex justify-between items-start mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-red-100/80 flex items-center justify-center group-hover:bg-cyanPrimary transition-colors duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-blue-100/80 flex items-center justify-center group-hover:bg-cyanPrimary transition-colors duration-300">
                     {getCategoryIcon(cat.icon)}
                   </div>
                   <div className="w-7 h-7 rounded-full bg-slate-100 flex items-center justify-center text-textSec group-hover:bg-cyanPrimary group-hover:text-white transition-colors">

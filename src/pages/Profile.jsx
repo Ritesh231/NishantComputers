@@ -47,7 +47,7 @@ const Profile = () => {
           </Link>
 
           <Link to="/wishlist" className="bg-white border border-borderColor rounded-2xl p-6 shadow-xs hover:border-cyanPrimary/40 hover:shadow-md transition-all group">
-            <div className="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center text-coralDark mb-4 group-hover:bg-coralDark group-hover:text-white transition-colors">
+            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-coralDark mb-4 group-hover:bg-coralDark group-hover:text-white transition-colors">
               <Heart className="w-6 h-6" />
             </div>
             <h3 className="text-base font-bold text-textMain mb-1">Wishlist ({wishlistItems.length})</h3>

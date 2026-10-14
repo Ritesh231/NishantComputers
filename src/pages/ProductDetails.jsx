@@ -129,7 +129,7 @@ const ProductDetails = () => {
                     <span className="text-base text-slate-400 line-through">{formatPrice(product.originalPrice)}</span>
                   )}
                   {product.discount > 0 && (
-                    <span className="text-xs font-bold text-coralDark bg-red-50 px-2.5 py-1 rounded-md ml-auto">
+                    <span className="text-xs font-bold text-coralDark bg-blue-50 px-2.5 py-1 rounded-md ml-auto">
                       Save {formatPrice(product.originalPrice - product.price)}
                     </span>
                   )}
@@ -220,7 +220,7 @@ const ProductDetails = () => {
                   {/* Add to Cart */}
                   <button
                     onClick={() => addToCart(product, quantity, { ram: selectedRam, storage: selectedStorage })}
-                    className="flex-1 bg-cyanPrimary hover:bg-cyan-600 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-md flex items-center justify-center gap-2"
+                    className="flex-1 bg-cyanPrimary hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-md flex items-center justify-center gap-2"
                   >
                     <ShoppingCart className="w-4 h-4" />
                     Add to Cart
@@ -241,7 +241,7 @@ const ProductDetails = () => {
                   <button
                     onClick={() => toggleWishlist(product)}
                     className={`p-3.5 rounded-xl border border-borderColor transition-all ${
-                      isWishlisted ? 'bg-red-50 text-coralDark border-coralSoft' : 'bg-slate-50 text-textSec hover:text-coralSoft'
+                      isWishlisted ? 'bg-blue-50 text-coralDark border-coralSoft' : 'bg-slate-50 text-textSec hover:text-coralSoft'
                     }`}
                   >
                     <Heart className={`w-5 h-5 ${isWishlisted ? 'fill-coralDark' : ''}`} />

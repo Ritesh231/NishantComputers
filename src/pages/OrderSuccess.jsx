@@ -54,7 +54,7 @@ const OrderSuccess = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link
               to="/orders"
-              className="w-full bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs py-3.5 rounded-xl shadow-md transition-all flex items-center justify-center gap-2"
+              className="w-full bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs py-3.5 rounded-xl shadow-md transition-all flex items-center justify-center gap-2"
             >
               <Package className="w-4 h-4" /> Track Order
             </Link>

@@ -22,7 +22,7 @@ const Cart = () => {
         </p>
         <Link
           to="/laptops"
-          className="bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs px-8 py-4 rounded-xl shadow-md transition-all flex items-center gap-2"
+          className="bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs px-8 py-4 rounded-xl shadow-md transition-all flex items-center gap-2"
         >
           Explore Laptops
           <ArrowRight className="w-4 h-4" />
@@ -138,7 +138,7 @@ const Cart = () => {
 
               <button
                 onClick={() => navigate('/checkout')}
-                className="w-full bg-cyanPrimary hover:bg-cyan-600 text-white font-bold py-4 rounded-xl text-xs shadow-md transition-all flex items-center justify-center gap-2"
+                className="w-full bg-cyanPrimary hover:bg-blue-700 text-white font-bold py-4 rounded-xl text-xs shadow-md transition-all flex items-center justify-center gap-2"
               >
                 Proceed to Checkout
                 <ArrowRight className="w-4 h-4" />

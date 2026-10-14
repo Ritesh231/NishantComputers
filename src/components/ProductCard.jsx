@@ -35,8 +35,8 @@ const ProductCard = ({ product }) => {
           }}
           className={`p-2 rounded-full transition-all duration-200 ${
             isWishlisted 
-              ? 'bg-red-50 text-coralDark scale-110' 
-              : 'bg-slate-50 text-textSec hover:text-coralSoft hover:bg-red-50'
+              ? 'bg-blue-50 text-coralDark scale-110' 
+              : 'bg-slate-50 text-textSec hover:text-coralSoft hover:bg-blue-50'
           }`}
           aria-label="Wishlist"
         >
@@ -105,7 +105,7 @@ const ProductCard = ({ product }) => {
 
           <button
             onClick={() => addToCart(product)}
-            className="w-full bg-cyanPrimary hover:bg-cyan-600 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-sm hover:shadow-md active:scale-95"
+            className="w-full bg-cyanPrimary hover:bg-blue-700 text-white font-medium text-xs py-2.5 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-sm hover:shadow-md active:scale-95"
           >
             <ShoppingCart className="w-3.5 h-3.5" />
             Add to Cart

@@ -227,7 +227,7 @@ const Laptops = () => {
               </div>
             ) : filteredProducts.length === 0 ? (
               <div className="bg-white rounded-3xl p-12 text-center border border-borderColor shadow-xs">
-                <div className="w-16 h-16 bg-red-50 text-coralDark rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-50 text-coralDark rounded-full flex items-center justify-center mx-auto mb-4">
                   <Search className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-extrabold text-textMain mb-2">No Laptops Found</h3>
@@ -236,7 +236,7 @@ const Laptops = () => {
                 </p>
                 <button
                   onClick={clearFilters}
-                  className="bg-cyanPrimary text-white text-xs font-bold px-6 py-3 rounded-xl shadow-md hover:bg-cyan-600 transition-colors"
+                  className="bg-cyanPrimary text-white text-xs font-bold px-6 py-3 rounded-xl shadow-md hover:bg-blue-700 transition-colors"
                 >
                   Clear All Filters
                 </button>

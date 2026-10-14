@@ -15,7 +15,7 @@ const BrandCard = () => {
           </div>
           <Link
             to="/laptops"
-            className="text-xs font-bold text-cyanPrimary hover:text-cyan-700 flex items-center gap-1.5"
+            className="text-xs font-bold text-cyanPrimary hover:text-blue-700 flex items-center gap-1.5"
           >
             View All Brands <ArrowRight className="w-3.5 h-3.5" />
           </Link>

@@ -61,7 +61,7 @@ const Header = () => {
           
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0 group">
-            <div className="w-10 h-10 rounded-xl bg-cyanPrimary flex items-center justify-center text-white shadow-md shadow-red-600/20 group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 rounded-xl bg-cyanPrimary flex items-center justify-center text-white shadow-md shadow-blue-600/20 group-hover:scale-105 transition-transform">
               <Laptop className="w-6 h-6 stroke-[2.2]" />
             </div>
             <div className="flex flex-col">

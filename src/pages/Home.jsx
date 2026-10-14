@@ -30,7 +30,7 @@ const Home = () => {
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-coralDark bg-red-50 px-2.5 py-0.5 rounded-full mb-2">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-coralDark bg-blue-50 px-2.5 py-0.5 rounded-full mb-2">
               <Flame className="w-3.5 h-3.5 fill-coralDark" />
               <span>POPULAR SELECTIONS</span>
             </div>
@@ -38,7 +38,7 @@ const Home = () => {
           </div>
           <Link
             to="/laptops"
-            className="text-xs font-bold text-cyanPrimary hover:text-cyan-700 flex items-center gap-1.5"
+            className="text-xs font-bold text-cyanPrimary hover:text-blue-700 flex items-center gap-1.5"
           >
             Explore All 20+ Laptops <ArrowRight className="w-3.5 h-3.5" />
           </Link>
@@ -68,7 +68,7 @@ const Home = () => {
               </p>
               <Link
                 to="/deals"
-                className="inline-flex items-center gap-2 bg-coralDark hover:bg-red-600 text-white font-bold text-xs px-7 py-3.5 rounded-xl shadow-md transition-all hover:scale-105"
+                className="inline-flex items-center gap-2 bg-coralDark hover:bg-blue-700 text-white font-bold text-xs px-7 py-3.5 rounded-xl shadow-md transition-all hover:scale-105"
               >
                 <Tag className="w-4 h-4" />
                 Shop Deals Now
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
           <Link
             to="/laptops?category=Gaming"
-            className="text-xs font-bold text-cyanPrimary hover:text-cyan-700 flex items-center gap-1.5"
+            className="text-xs font-bold text-cyanPrimary hover:text-blue-700 flex items-center gap-1.5"
           >
             View All Gaming Laptops <ArrowRight className="w-3.5 h-3.5" />
           </Link>
@@ -133,7 +133,7 @@ const Home = () => {
             </div>
             <Link
               to="/laptops?category=Business"
-              className="text-xs font-bold text-cyanPrimary hover:text-cyan-700 flex items-center gap-1.5"
+              className="text-xs font-bold text-cyanPrimary hover:text-blue-700 flex items-center gap-1.5"
             >
               View Business Laptops <ArrowRight className="w-3.5 h-3.5" />
             </Link>
@@ -159,7 +159,7 @@ const Home = () => {
           </div>
           <Link
             to="/laptops"
-            className="text-xs font-bold text-cyanPrimary hover:text-cyan-700 flex items-center gap-1.5"
+            className="text-xs font-bold text-cyanPrimary hover:text-blue-700 flex items-center gap-1.5"
           >
             Browse All <ArrowRight className="w-3.5 h-3.5" />
           </Link>

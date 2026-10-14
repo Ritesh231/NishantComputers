@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgMain: '#FFFDF7',
-        bgSec: '#FEF2F2',
-        yellowLight: '#FFF1B8',
-        cyanSoft: '#FEE2E2',
-        cyanPrimary: '#DC2626',
-        coralSoft: '#F87171',
-        coralDark: '#E85D5D',
+        bgMain: '#F5F8FF',
+        bgSec: '#EEF2FF',
+        yellowLight: '#DBEAFE',
+        cyanSoft: '#DBEAFE',
+        cyanPrimary: '#2563EB',
+        coralSoft: '#60A5FA',
+        coralDark: '#1D4ED8',
         textMain: '#172033',
         textSec: '#64748B',
         borderColor: '#E5E7EB',

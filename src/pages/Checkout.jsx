@@ -180,7 +180,7 @@ const Checkout = () => {
 
                 <button
                   onClick={() => setStep(2)}
-                  className="mt-6 bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs px-8 py-3.5 rounded-xl shadow-md flex items-center gap-2"
+                  className="mt-6 bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs px-8 py-3.5 rounded-xl shadow-md flex items-center gap-2"
                 >
                   Continue to Delivery Speed <ArrowRight className="w-4 h-4" />
                 </button>
@@ -228,7 +228,7 @@ const Checkout = () => {
                   </button>
                   <button
                     onClick={() => setStep(3)}
-                    className="bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs px-8 py-3.5 rounded-xl shadow-md flex items-center gap-2"
+                    className="bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs px-8 py-3.5 rounded-xl shadow-md flex items-center gap-2"
                   >
                     Continue to Payment <ArrowRight className="w-4 h-4" />
                   </button>
@@ -294,7 +294,7 @@ const Checkout = () => {
                   </button>
                   <button
                     onClick={handlePlaceOrder}
-                    className="flex-1 bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs py-3.5 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2"
+                    className="flex-1 bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs py-3.5 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2"
                   >
                     <Check className="w-4 h-4" /> Place Order ({formatPrice(cartTotal)})
                   </button>

@@ -69,7 +69,7 @@ const Login = () => {
 
             <button
               type="submit"
-              className="w-full bg-cyanPrimary hover:bg-cyan-600 text-white font-bold py-3.5 rounded-xl shadow-md transition-all flex items-center justify-center gap-2"
+              className="w-full bg-cyanPrimary hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl shadow-md transition-all flex items-center justify-center gap-2"
             >
               Sign In
               <ArrowRight className="w-4 h-4" />

@@ -11,7 +11,7 @@ const Wishlist = () => {
   if (wishlistItems.length === 0) {
     return (
       <div className="min-h-[70vh] bg-bgMain flex flex-col items-center justify-center p-6 text-center">
-        <div className="w-24 h-24 bg-red-50 rounded-full flex items-center justify-center text-coralDark mb-6">
+        <div className="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center text-coralDark mb-6">
           <Heart className="w-12 h-12 stroke-[1.5]" />
         </div>
         <h1 className="text-3xl font-extrabold text-textMain mb-2">Your wishlist is waiting</h1>
@@ -20,7 +20,7 @@ const Wishlist = () => {
         </p>
         <Link
           to="/laptops"
-          className="bg-cyanPrimary hover:bg-cyan-600 text-white font-bold text-xs px-8 py-4 rounded-xl shadow-md transition-all flex items-center gap-2"
+          className="bg-cyanPrimary hover:bg-blue-700 text-white font-bold text-xs px-8 py-4 rounded-xl shadow-md transition-all flex items-center gap-2"
         >
           Explore Laptops
           <ArrowRight className="w-4 h-4" />
